@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WmWiFi
+Comment=Wireless network monitor
+Comment[pl]=Monitor sieci bezprzewodowej
+Exec=wmwifi
+Terminal=false
+Type=Application
+Encoding=UTF-8
+# vi: encoding=utf-8
