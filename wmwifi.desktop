@@ -1,9 +1,11 @@
 [Desktop Entry]
+Encoding=UTF-8
 Name=WmWiFi
 Comment=Wireless network monitor
 Comment[pl]=Monitor sieci bezprzewodowej
 Exec=wmwifi
 Terminal=false
 Type=Application
-Encoding=UTF-8
+Categories=X-Docklet;
+NotShowIn=GNOME;KDE;
 # vi: encoding=utf-8
