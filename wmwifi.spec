@@ -18,8 +18,8 @@ percentage, and has an LCD look-alike user interface.
 
 %description -l pl
 wmwifi monitoruje pierwszy interfejs sieci bezprzewodowej wy¶wietlaj±c
-w procentach si³ê sygna³u pomiêdzy kart± a punktem dostêpowym i
-posiada interfejs u¿ytkowinika przypominaj±cy wy¶wietlacz LCD.
+w procentach si³ê sygna³u pomiêdzy kart± a punktem dostêpowym.
+Posiada interfejs u¿ytkownika przypominaj±cy wy¶wietlacz LCD.
 
 %prep
 %setup -q
