@@ -1,5 +1,5 @@
 Summary:	A dockapp to monitor wireless network signal strength
-Summary(pl.UTF-8):   Aplet monitorujący siłę sygnału sieci bezprzewodowej
+Summary(pl.UTF-8):	Aplet monitorujący siłę sygnału sieci bezprzewodowej
 Name:		wmwifi
 Version:	0.5
 Release:	1
