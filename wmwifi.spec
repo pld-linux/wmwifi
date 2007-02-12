@@ -1,5 +1,5 @@
 Summary:	A dockapp to monitor wireless network signal strength
-Summary(pl):	Aplet monitoruj±cy si³ê sygna³u sieci bezprzewodowej
+Summary(pl.UTF-8):   Aplet monitorujÄ…cy siÅ‚Ä™ sygnaÅ‚u sieci bezprzewodowej
 Name:		wmwifi
 Version:	0.5
 Release:	1
@@ -19,10 +19,10 @@ wmwifi monitors the first wireless network interface displaying the
 signal strength between card and wireless access point as a
 percentage, and has an LCD look-alike user interface.
 
-%description -l pl
-wmwifi monitoruje pierwszy interfejs sieci bezprzewodowej wy¶wietlaj±c
-w procentach si³ê sygna³u pomiêdzy kart± a punktem dostêpowym.
-Posiada interfejs u¿ytkownika przypominaj±cy wy¶wietlacz LCD.
+%description -l pl.UTF-8
+wmwifi monitoruje pierwszy interfejs sieci bezprzewodowej wyÅ›wietlajÄ…c
+w procentach siÅ‚Ä™ sygnaÅ‚u pomiÄ™dzy kartÄ… a punktem dostÄ™powym.
+Posiada interfejs uÅ¼ytkownika przypominajÄ…cy wyÅ›wietlacz LCD.
 
 %prep
 %setup -q
