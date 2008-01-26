@@ -1,0 +1,11 @@
+--- wmwifi-0.6/src/wmwifi.h.orig	2008-01-26 01:08:06.000000000 +0000
++++ wmwifi-0.6/src/wmwifi.h	2008-01-26 01:07:42.000000000 +0000
+@@ -13,5 +13,7 @@
+ #include <net/ethernet.h>	/* struct ether_addr */
+ #include <sys/time.h>		/* struct timeval */
++#include <linux/types.h>
++#include <linux/if.h>
+ #include <linux/wireless.h>
+ 
+ #define KILO    1e3
+ #define MEGA    1e6
