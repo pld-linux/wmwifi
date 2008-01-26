@@ -12,6 +12,9 @@ Patch0:		%{name}-include.patch
 URL:		http://wmwifi.digitalssg.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	xorg-lib-libX11-devel
+BuildRequires:	xorg-lib-libXext-devel
+BuildRequires:	xorg-lib-libXpm-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
