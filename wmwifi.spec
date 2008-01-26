@@ -1,15 +1,15 @@
 Summary:	A dockapp to monitor wireless network signal strength
 Summary(pl.UTF-8):	Aplet monitorujący siłę sygnału sieci bezprzewodowej
 Name:		wmwifi
-Version:	0.5
+Version:	0.6
 Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://digitalssg.net/debian/%{name}-%{version}.tar.gz
-# Source0-md5:	7fb1c99054312118e2c41cd3b7ec5141
+# Source0-md5:	b170d4a6c4fc42774b9798cf98af1c27
 Source1:	%{name}.desktop
+Patch0:		%{name}-include.patch
 URL:		http://wmwifi.digitalssg.net/
-BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,6 +26,7 @@ Posiada interfejs użytkownika przypominający wyświetlacz LCD.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__aclocal}
